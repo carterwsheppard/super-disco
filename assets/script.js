@@ -11,7 +11,6 @@ function checkHour() {
     $(".time-block").each(function() {
         //get hour of a certain block
         var blockHour = parseInt($(this).attr("id"))
-        console.log(blockHour);
 
         //check against current hour and color code
 
